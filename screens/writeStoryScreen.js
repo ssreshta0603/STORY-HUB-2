@@ -7,7 +7,7 @@ import {
   TextInput,
   TouchableOpacity,
 } from "react-native";
-import db from "../config"
+import db from "../config.js"
 import firebase from 'firebase'
 export default class WriteStoryScreen extends React.Component {
   render() {
